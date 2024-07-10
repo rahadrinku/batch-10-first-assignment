@@ -1,5 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    font-family: "Azeret Mono", monospace;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.banner-rady{
+    margin: 0 auto;
+    /* margin-top: 131px; */
+    background-image: url('../assets/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 26px 221px 44px 221px;
+    
+}
+.in-the-text {
+   
+    margin: 0 auto;
+    padding: 26px;
+}
+
+.in-the-text h1 {
+   color: rgb(13, 19, 33);
+   font-size: 48px;
+   font-weight: 800;
+   line-height: 68px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin: 32px 0px;
+}
+.in-the-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 26px;
+}
+
+.in-the-text p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.job-design{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-title{
+    margin-top: 30px;
+}
+
+.left {
+    width: 50%;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 16px;
+}
+
+.right{
+    width: 50%;
+    height: 220px;
+}
+
+.parent{
+    display: flex;
+    margin-top: 30px;
+    padding: 48px;
+}
+.title{
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 16px;
+}
+.learn-btn{
+    padding: 10px;
+    background-color: white;
+    margin-top: 13px;
 }
