@@ -29,7 +29,6 @@ html{
    color: rgb(13, 19, 33);
    font-size: 48px;
    font-weight: 800;
-   line-height: 68px;
    letter-spacing: 0%;
    text-align: center;
    margin: 32px 0px;
@@ -61,7 +60,7 @@ html{
 
 .job-design{
     width: 1140px;
-    height: 1395px;
+    /* height: 1395px; */
     margin: 0 auto;
     text-align: center;
 }
@@ -98,4 +97,80 @@ html{
     padding: 10px;
     background-color: white;
     margin-top: 13px;
+}
+.video-container{
+    margin-top: 48px;
+    padding: 32px;
+}
+.target-container{
+    margin-top: 48px;    
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.image{
+    margin-bottom: 8px;
+}
+.target-title{
+    margin-bottom: 8px;
+}
+.target-description{
+    margin-bottom: 8px;
+}
+.card{
+    background-color: rgba(255, 76, 30, 0.05);
+    text-align: left;
+    padding: 30px;
+    border-radius: 16px;
+}
+.card2{
+    background-color: rgba(255, 223, 0, 0.05);
+    text-align: left;
+    padding: 30px;
+}
+.last-banner{
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 64px 48px 64px 48px;
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+.support{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.support-description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.input-field{
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 8px;
+    width: 45%;
+    border: none;
+}
+.submit-btn{
+    padding: 20px;
+    border: none;
+    width: 120px;
+    border-radius: 8px;
+}
+.support-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.contents img{
+    margin-right: 8px;
 }
