@@ -59,7 +59,7 @@ html{
 }
 
 .job-design{
-    width: 1140px;
+    max-width: 1140px;
     /* height: 1395px; */
     margin: 0 auto;
     text-align: center;
@@ -168,8 +168,10 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
+    padding: 20px 40px;
     background-color: rgba(13, 19, 33, 0.03);
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .contents img{
     margin-right: 8px;
